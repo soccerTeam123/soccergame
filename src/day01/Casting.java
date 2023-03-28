@@ -64,5 +64,7 @@ public class Casting {
         double result = (double) g / 5.0;
         System.out.println("result = " + result);
 
+
+
     }
 }
