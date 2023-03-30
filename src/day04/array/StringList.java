@@ -96,8 +96,7 @@ public class StringList {
     void insert(int index, String newData) {
 
         if (index < 0 || index > sArr.length - 1) return;
-
-
+        if (index == sArr.length - 1) push(newData);
 
         String[] temp = new String[sArr.length + 1];
         for (int i = 0; i < sArr.length; i++) {
