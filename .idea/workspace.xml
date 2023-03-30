@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="배열기초, push, pop, copy 알고리즘">
+    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 배열 수정, 삭제, 삽입 알고리즘&#10;# 메서드">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +27,9 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -51,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/java_study_04-master",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/java_study_04-master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.색 구성표 글꼴&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="애플리케이션.MethodQuiz">
-    <configuration name="ArrayDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.ArrayDelete" />
+}</component>
+  <component name="RunManager" selected="애플리케이션.FieldMain">
+    <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.ArrayInsert" />
+    <configuration name="FieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.FieldMain" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.FieldMain" />
+        <item itemvalue="애플리케이션.DancerMain" />
         <item itemvalue="애플리케이션.MethodQuiz" />
         <item itemvalue="애플리케이션.MethodBasic" />
         <item itemvalue="애플리케이션.Matrix" />
-        <item itemvalue="애플리케이션.ArrayInsert" />
-        <item itemvalue="애플리케이션.ArrayDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679974728999</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="# 배열 수정, 삭제, 삽입 알고리즘&#10;# 메서드">
+      <created>1680069534185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680069534185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +193,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="타입 캐스팅" />
     <MESSAGE value="배열기초, push, pop, copy 알고리즘" />
-    <option name="LAST_COMMIT_MESSAGE" value="배열기초, push, pop, copy 알고리즘" />
+    <MESSAGE value="# 배열 수정, 삭제, 삽입 알고리즘&#10;# 메서드" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 배열 수정, 삭제, 삽입 알고리즘&#10;# 메서드" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
