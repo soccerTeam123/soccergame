@@ -19,8 +19,19 @@ public class Main {
         foodList.pop();
         userNameList.pop();
 
-        foodList.clear();
-        System.out.println("foodList 비었니? " + foodList.isEmpty());
+        foodList.insert(0, "꽃게탕");
+        foodList.insert(2, "닭도리탕");
+
+        foodList.remove("닭도리탕");
+        foodList.remove(2);
+
+        System.out.println("짜장면 있음? " + foodList.includes("짜장면"));
+        System.out.println("짱뽕 있음? " + foodList.includes("짬뽕"));
+
+        System.out.println("제육볶음 어딨음? " + foodList.indexOf("제육볶음"));
+
+//        foodList.clear();
+//        System.out.println("foodList 비었니? " + foodList.isEmpty());
 
         System.out.println("foodList = " + foodList);
         System.out.println("foodList.size() = " + foodList.size());
