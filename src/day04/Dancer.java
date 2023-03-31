@@ -44,8 +44,8 @@ public class Dancer {
 
     // 기능 (메서드) : static을 붙이지 마세요
     // 춤추는 기능
-    void dance() {
-        System.out.println(genre + "춤을 열정적으로 춥니다.");
+    void dance(Dancer this) {
+        System.out.println(this.genre + "춤을 열정적으로 춥니다.");
     }
 
     // 스트레칭을 하는 기능
