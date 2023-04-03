@@ -22,7 +22,7 @@ public class MemberView {
         System.out.println("* 2. 개별회원 정보 조회하기");
         System.out.println("* 3. 전체회원 정보 조회하기");
         System.out.println("* 4. 회원 정보 수정하기");
-        System.out.println("* 5. 회원 정보 삭제하기");
+        if (!mr.isEmpty()) System.out.println("* 5. 회원 정보 삭제하기");
         System.out.println("* 6. 프로그램 끝내기");
         System.out.println("=============================");
     }
@@ -50,6 +50,8 @@ public class MemberView {
                     changePasswordViewProcess();
                     break;
                 case "5":
+                    if (mr.isEmpty()) continue;
+                    removeMemberViewProcess();
                     break;
                 case "6":
                     String answer = input("# 정말로 종료합니까? [y/n] : ");
@@ -64,6 +66,33 @@ public class MemberView {
                     System.out.println("\n# 메뉴 번호를 다시 입력하세요");
             }
         }
+    }
+
+    void removeMemberViewProcess() {
+
+        // 삭제대상 이메일 입력받기
+        String targetEmail
+                = input("# 삭제할 회원의 이메일: ");
+
+        // 존재하는지 확인 후 삭제 처리 위임
+        Member foundMember = mr.findByEmail(targetEmail);
+        if (foundMember != null) {
+            // -> 한번 더 y/n으로 삭제여부 묻기
+            String answer = input(String.format("# %s님의 정보를 정말 삭제합니까?? [y/n] : ", foundMember.memberName));
+            switch (answer.toUpperCase().charAt(0)) {
+                case 'Y':
+                    mr.removeMember(targetEmail);
+                    System.out.println("\n# 회원 정보 삭제 성공!!");
+                    break;
+                default:
+                    System.out.println("\n# 삭제를 취소합니다.");
+            }
+        } else {
+            System.out.println("\n# 조회 결과가 없습니다.");
+        }
+        stop();
+
+
     }
 
     // 비밀번호 변경 입출력 처리
@@ -120,7 +149,8 @@ public class MemberView {
         String password = input("# 패스워드: ");
 
         Gender gender;
-        checkGender: while (true) {
+        checkGender:
+        while (true) {
             String inputGender = input("# 성별[M/F] : ");
             switch (inputGender.toUpperCase().charAt(0)) {
                 case 'M':
