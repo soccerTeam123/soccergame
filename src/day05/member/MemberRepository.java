@@ -98,7 +98,7 @@ public class MemberRepository {
      * @param email - 탐색 대상의 이메일
      * @return : 찾아낸 인덱스, 못찾으면 -1 리턴
      */
-    int findIndexByEmail(String email) {
+    private int findIndexByEmail(String email) {
         for (int i = 0; i < memberList.length; i++) {
             if (memberList[i].email.equals(email))
                 return i;
