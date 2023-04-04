@@ -13,7 +13,7 @@ public class LottoSimulator {
 
         int i = 0;
         while (i < myLotto.length){
-            int number = Integer.parseInt(Utility.input(String.format("%d번째 번호 >>", i+1)));
+            int number = Integer.parseInt(Utility.input(String.format("%d번째 번호 >> ", i+1)));
 
             if (!Lotto.isDuplicate(myLotto, number)) {
                 myLotto[i] = number;
@@ -26,10 +26,10 @@ public class LottoSimulator {
         return myLotto;
     }
 
-    public static int checkLotto(int[] myLotto, int[] targetLotto) {
+    public static int checkLotto(int[] winNumbers, int[] myLotto) {
         int count = 0 ;  // 일치한 숫자의 수
-        for (int n : myLotto) {
-            for (int m : targetLotto) {
+        for (int n : winNumbers) {
+            for (int m : myLotto) {
                 if (m == n) count++;
             }
         }
@@ -37,14 +37,15 @@ public class LottoSimulator {
     }
 
     public static void run() {
-        int[] myLottoNumbers = makeMyLotto();
+        // 1등 당첨번호
+        int[] winNumbers = makeMyLotto();
 
         int paper = 0; // 구매한 장수
         while (true) {
             int[] purchasedLottoNumbers = Lotto.getLotto();
             paper++;
 
-            int count = checkLotto(myLottoNumbers, purchasedLottoNumbers);
+            int count = checkLotto(winNumbers, purchasedLottoNumbers);
 
             if (count == 6) {
                 System.out.printf("# %d장만에 1등에 당첨되었습니다. ㅊㅋㅊㅋ\n", paper);
