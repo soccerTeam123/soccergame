@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 다형성 1">
+    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 도서관리 프로그램 1 - 마이페이지 기능">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/car/Mustang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/Mustang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/CartoonBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/CartoonBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/CookBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/CookBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680662297299</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="# 도서관리 프로그램 1 - 마이페이지 기능">
+      <created>1680673365587</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680673365587</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +309,8 @@
     <MESSAGE value="# 상속, 오버라이딩, static" />
     <MESSAGE value="# lotto simulator" />
     <MESSAGE value="# 다형성 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 다형성 1" />
+    <MESSAGE value="# 도서관리 프로그램 1 - 마이페이지 기능" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 도서관리 프로그램 1 - 마이페이지 기능" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
