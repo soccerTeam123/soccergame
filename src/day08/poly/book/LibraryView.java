@@ -113,7 +113,7 @@ public class LibraryView {
     }
 
     // 메인 메뉴창을 출력하는 메서드
-    private static void showMainScreen() {
+    public static void showMainScreen() {
 
         System.out.println("\n============ 도서 메뉴 ==============");
         System.out.println("# 1. 마이페이지");

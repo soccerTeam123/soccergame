@@ -75,7 +75,7 @@
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Run">
+  <component name="RunManager" selected="Application.day07.inherit.Main">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day08.poly.book.Run" />
       <module name="java_basic" />
@@ -141,15 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.Run" />
-        <item itemvalue="애플리케이션.day08.poly.car.Main" />
-        <item itemvalue="애플리케이션.day07.inherit.Main" />
-        <item itemvalue="애플리케이션.day07.lotto.Main" />
-        <item itemvalue="애플리케이션.day07.static_.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

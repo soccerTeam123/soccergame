@@ -1,5 +1,7 @@
 package day07.util;
 
+import day04.array.StringList;
+
 import java.util.Scanner;
 
 public class Utility {
@@ -10,6 +12,7 @@ public class Utility {
 
     // 구분선을 출력하는 기능
     public static void makeLine() {
+
         System.out.println("========================");
     }
 
@@ -18,5 +21,6 @@ public class Utility {
         System.out.print(message);
         return sc.nextLine();
     }
+
 
 }
